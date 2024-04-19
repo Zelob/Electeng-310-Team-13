@@ -1,0 +1,54 @@
+Circuit: * C:\Users\yzhe577\Desktop\Electeng-310-Team-13-main\Sim\310_circuits.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Less than two connections to node V-.  This node is used by V2.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Gmin = 100
+vernier = 0.5
+Gmin = 16.7772
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 15.3118
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 15.2671
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Fri Apr 19 12:45:32 2024
+Total elapsed time: 5.041 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1397350
+traniter = 1395561
+tranpoints = 335450
+accept = 239942
+rejected = 95508
+matrix size = 67
+fillins = 235
+solver = Normal
+Matrix Compiler1: 18.87 KB object code size  1.6/0.7/[0.5]
+Matrix Compiler2: 9.62 KB object code size  0.6/0.6/[0.3]
+
